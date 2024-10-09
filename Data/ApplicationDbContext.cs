@@ -12,4 +12,5 @@ public class ApplicationDbContext : DbContext
     }
 
     public DbSet<Student> Students { get; set; } = null!;
+    public DbSet<User> Users { get; set; } = null!;
 }
